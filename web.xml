@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    	<servlet>
+        		<servlet-name>HelloWorldExample</servlet-name>
+        		<servlet-class>HelloWorldExample</servlet-class>
+    	</servlet>
+
+  	<servlet>
+        		<servlet-name>GSD</servlet-name>
+        		<servlet-class>GSD</servlet-class>
+    	</servlet>
+	<servlet>
+       	 	<servlet-name>Servlet1</servlet-name>
+        		<servlet-class>Servlet1</servlet-class>
+    	</servlet>
+	
+	<servlet>
+        		<servlet-name>Servlet2</servlet-name>
+        		<servlet-class>Servlet2</servlet-class>
+    	</servlet>
+	
+	<servlet>
+       		 <servlet-name>Servlet3</servlet-name>
+      		 <servlet-class>Servlet3</servlet-class>
+   	 </servlet>
+
+	<servlet>
+       		 <servlet-name>ServletJdbc</servlet-name>
+        		<servlet-class>ServletJdbc</servlet-class>
+    	</servlet>
+
+	<servlet>
+       		 <servlet-name>ServletJdbc1</servlet-name>
+        		<servlet-class>ServletJdbc1</servlet-class>
+    	</servlet>
+
+	<servlet>
+       		 <servlet-name>ServletJdbcphp</servlet-name>
+        		<servlet-class>ServletJdbcphp</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>ServletJdbcaccess</servlet-name>
+        		<servlet-class>ServletJdbcaccess</servlet-class>
+    	</servlet>
+	
+	<servlet>
+       		 <servlet-name>Registration</servlet-name>
+        		<servlet-class>Registration</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>Servletphpdisp</servlet-name>
+        		<servlet-class>Servletphpdisp</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>Servletphpupdate</servlet-name>
+        		<servlet-class>Servletphpupdate</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>Servletphpdelete</servlet-name>
+        		<servlet-class>Servletphpdelete</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>HiddenDemo</servlet-name>
+        		<servlet-class>HiddenDemo</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>UrlRedirectDemo</servlet-name>
+        		<servlet-class>UrlRedirectDemo</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>CookiesCreate</servlet-name>
+        		<servlet-class>CookiesCreate</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>CookiesDisplay</servlet-name>
+        		<servlet-class>CookiesDisplay</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>SessionCreate</servlet-name>
+        		<servlet-class>SessionCreate</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>SessionDisplay</servlet-name>
+        		<servlet-class>SessionDisplay</servlet-class>
+    	</servlet>
+
+	<servlet>
+       		 <servlet-name>SessionInfo</servlet-name>
+        		<servlet-class>SessionInfo</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>ServletAuth</servlet-name>
+        		<servlet-class>ServletAuth</servlet-class>
+    	</servlet>
+
+	<servlet>
+       		 <servlet-name>ServletWelcome</servlet-name>
+        		<servlet-class>ServletWelcome</servlet-class>
+    	</servlet>
+	<servlet>
+       		 <servlet-name>Servletlogin</servlet-name>
+        		<servlet-class>Servletlogin</servlet-class>
+    	</servlet>
+
+
+
+
+    	<servlet-mapping>
+        		<servlet-name>HelloWorldExample</servlet-name>
+        		<url-pattern>/HelloWorldExample</url-pattern>
+    	</servlet-mapping>
+
+	<servlet-mapping>
+       		<servlet-name>GSD</servlet-name>
+        		<url-pattern>/GSD</url-pattern>
+    	</servlet-mapping>
+	
+	<servlet-mapping>
+        		<servlet-name>Servlet1</servlet-name>
+        		<url-pattern>/Servlet1</url-pattern>
+    	</servlet-mapping>
+	
+	<servlet-mapping>
+       		 <servlet-name>Servlet2</servlet-name>
+        		<url-pattern>/Servlet2</url-pattern>
+    	</servlet-mapping>
+	
+	<servlet-mapping>
+        		<servlet-name>Servlet3</servlet-name>
+        		<url-pattern>/Servlet3</url-pattern>
+    	</servlet-mapping>
+
+	
+	<servlet-mapping>
+        		<servlet-name>ServletJdbc</servlet-name>
+        		<url-pattern>/ServletJdbc</url-pattern>
+    	</servlet-mapping>
+
+	<servlet-mapping>
+        		<servlet-name>ServletJdbc1</servlet-name>
+        		<url-pattern>/ServletJdbc1</url-pattern>
+    	</servlet-mapping>
+
+	<servlet-mapping>
+        		<servlet-name>ServletJdbcphp</servlet-name>
+        		<url-pattern>/ServletJdbcphp</url-pattern>
+    	</servlet-mapping>
+	
+	<servlet-mapping>
+        		<servlet-name>ServletJdbcaccess</servlet-name>
+        		<url-pattern>/ServletJdbcaccess</url-pattern>
+    	</servlet-mapping>
+
+	<servlet-mapping>
+        		<servlet-name>Registration</servlet-name>
+        		<url-pattern>/Registration</url-pattern>
+    	</servlet-mapping>
+	
+	<servlet-mapping>
+        		<servlet-name>Servletphpdisp</servlet-name>
+        		<url-pattern>/Servletphpdisp</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>Servletphpupdate</servlet-name>
+        		<url-pattern>/Servletphpupdate</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>Servletphpdelete</servlet-name>
+        		<url-pattern>/Servletphpdelete</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>HiddenDemo</servlet-name>
+        		<url-pattern>/HiddenDemo</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>UrlRedirectDemo</servlet-name>
+        		<url-pattern>/UrlRedirectDemo</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>CookiesCreate</servlet-name>
+        		<url-pattern>/CookiesCreate</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>CookiesDisplay</servlet-name>
+        		<url-pattern>/CookiesDisplay</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>SessionCreate</servlet-name>
+        		<url-pattern>/SessionCreate</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>SessionDisplay</servlet-name>
+        		<url-pattern>/SessionDisplay</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>SessionInfo</servlet-name>
+        		<url-pattern>/SessionInfo</url-pattern>
+    	</servlet-mapping>
+		<servlet-mapping>
+        		<servlet-name>ServletAuth</servlet-name>
+        		<url-pattern>/ServletAuth</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>ServletWelcome</servlet-name>
+        		<url-pattern>/ServletWelcome</url-pattern>
+    	</servlet-mapping>
+	<servlet-mapping>
+        		<servlet-name>Servletlogin</servlet-name>
+        		<url-pattern>/Servletlogin</url-pattern>
+    	</servlet-mapping>
+
+</web-app>
